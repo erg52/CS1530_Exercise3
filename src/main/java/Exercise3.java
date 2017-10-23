@@ -54,7 +54,7 @@ public class Exercise3{
     }
 
     public static int parse(String[] s){
-        if(s.length != 1 || s == null){
+        if(s == null || s.length != 1){
             return -1;
         }
         else{
