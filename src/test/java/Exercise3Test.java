@@ -24,7 +24,7 @@ public class Exercise3Test {
     @Test
     public void testParseNonIntInput(){
         String[] arg = {"arglefargle"};
-        assertEquals(arg, -1);
+        assertEquals(toTest.parse(arg), -1);
     }
 
     /* Test the Triangle Number funciton of the program */
