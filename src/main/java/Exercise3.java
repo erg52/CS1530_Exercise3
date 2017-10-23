@@ -42,12 +42,9 @@ public class Exercise3{
         if(n<0){
             return -1;
         }
-        if(n == 0){
-            return 1;
-        }
         else{
             try{
-                int result = (n*n + n + 1)/2;
+                int result = (n*n + n + 2)/2;
                 return result;
             }
             catch(Exception ex){
